@@ -1,7 +1,8 @@
 package com.sxt.etl.mr.ald;
 
-import java.io.IOException;
-
+import com.sxt.common.EventLogConstants;
+import com.sxt.common.GlobalConstants;
+import com.sxt.util.TimeUtil;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
@@ -16,14 +17,13 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.Logger;
 
-import com.sxt.common.EventLogConstants;
-import com.sxt.common.GlobalConstants;
-import com.sxt.util.TimeUtil;
+import java.io.IOException;
 
 /**
  * 编写mapreduce的runner类
  * 
  * @author root
+ * create 'eventlog','log'
  *
  */
 public class AnalyserLogDataRunner implements Tool {
@@ -41,6 +41,8 @@ public class AnalyserLogDataRunner implements Tool {
 
     @Override
     public void setConf(Configuration conf) {
+        conf.set("fs.defaultFS","hdfs://129.211.79.98:9000");
+        conf.set("hbase.zookeeper.quorum","129.211.79.98:2181");
         this.conf = HBaseConfiguration.create(conf);
     }
 
@@ -113,7 +115,7 @@ public class AnalyserLogDataRunner implements Tool {
         try {
             fs = FileSystem.get(conf);
             String date = conf.get(GlobalConstants.RUNNING_DATE_PARAMES);
-            Path inputPath = new Path("/logs/" + TimeUtil.parseLong2String(TimeUtil.parseString2Long(date), "MM/dd/"));
+            Path inputPath = new Path("/logs/" + TimeUtil.parseLong2String(TimeUtil.parseString2Long(date), "yyyy/MM/dd/"));
             if (fs.exists(inputPath)) {
                 FileInputFormat.addInputPath(job, inputPath);
             } else {

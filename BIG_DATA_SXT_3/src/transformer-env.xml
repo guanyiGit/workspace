@@ -13,7 +13,7 @@
 
 	<property>
 	  <name>mysql.report.url</name>
-	  <value>jdbc:mysql://node3:3306/result_db?useUnicode=true&amp;characterEncoding=utf8</value>
+	  <value>jdbc:mysql://centos98:3306/result_db?useUnicode=true&amp;characterEncoding=utf8</value>
 	</property>	
 
 	<property>
@@ -23,6 +23,6 @@
 
 	<property>
 	  <name>mysql.report.password</name>
-	  <value>123</value>
+	  <value>123456</value>
 	</property>	
 </configuration>
