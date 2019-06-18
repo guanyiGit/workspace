@@ -1,0 +1,80 @@
+导入公共参数：
+	-- connect<jdbc-uri>				指定JDBC连接字符串
+ 	-- connection-manager<class-name>		指定使用的连接管理器类
+ 	-- drvier<class-name>				指定使用的JDBC驱动类
+ 	-- hadoop-mapred-home<dir>			指定hadoop安装目录
+ 	-- help						帮助
+ 	-- password-file				存放密码信息文件的路径
+ 	-P						从控制台读取输入的密码
+ 	-- password<password>				设置认证密码
+ 	-- username					设置认证用户名
+ 	-- verbose					打印详细的运行信息
+	-- connection-param-file			指定数据库连接属性文件
+	-- relaxed-isolation				设置每个mapmer的连接事务隔离
+导入hdfs控制参数：
+	--append			追加到一个已经存在的数据集合
+	--as-avrodatafile		导入数据到一个avro格式的数据文件
+	--as-sequencefile		导入的数据格式为sequencefile
+	--as-textfile			导入数据格式为textfile
+	--as-parquetfile		导入数据格式为parquet
+	--boundary-query		导入前先通过一个SQL查询得到一个结果集，在进行导入
+	--columns			指定要导入的字段值
+	--delete-target-dir		如果导入的目录已存在，则删除
+	--direct			使用direct模式
+	--fetch-size			从数据库中一次读入的记录数
+	--inline-lob-limit		设定大对象的最大值
+	-m,--mum-mappers		指定并行导入的map个数，
+	-e,--query			从一个查询结果集中进行导入
+	--split-by			指定分割split的字段，与-m联用
+	--autoreset-to-one-mapper	如果导入表没有主键或者使用split-by指定分割字段，使用一个mapper进行导入，不能和--split-by参数同时使用
+	--table				指定的表
+	--target-dir			指定的HDFS目录
+	--wherehouse-dir		与target-dir不能同时使用
+	--where				sql语句中的where条件
+	-z,--compress			导入数据进行压缩
+	--compression-codec		使用hadoop的压缩方式			
+	--null-string			指定空值字符串，默认null-string
+	--null-non-string		非字符类型字段空值字符串
+导入hive控制参数：
+	--hive-home			一般不需要设置，设置该参数会覆盖掉$HIVE_HOME
+	--hive-import			将数据从关系数据库中导入hive表中
+	--hive-overwrite		覆盖掉hive表中已经存在的数据
+	--create-hive-table		如果目标表存在，任务将失败
+	--hive-table			hive中要创建的表
+	--hive-drop-import-delims	导入数据时，去掉数据中\n,\r和\01这样的字符
+	--hive-delims-replacment	用自定义的字符号串替换掉数据中的\n,\r和、01这样额字符
+	--hive-partition-key		创建分区key值，
+	--hive-parttion-value		创建分区的value值
+	--map-column-hive		生成hive表时可以更改生成字段的数据类型
+导出公共参数：
+	与“导入公共参数”类同
+导出控制参数：
+	--colums			指定导出字段
+	--direct			使用direct模式
+	--export-dir			导出HDFS文件路径
+	-m，--num-mappers		指定导出数据的map个数
+	--table				指定DB中的表名
+	--call				调用的储存过程名称
+	--update-key			对已经存在列进行更新操作
+	--update-mode			只有在关系数据表里不存在导入的记录时才能使用
+	--input-null-string		空值字符串
+	--input-null-non-string		非字符串类型空值的表示
+	--staging-table			最终导出到目标表之间临时存储数据的表
+	--clear-staging-table		可以清除staging-table表中的数据
+	--batch				使用批量模式导出
+	
+	
+direct模式：
+	快速模式，利用了数据库的导入工具，如mysql的mysqlimport，可以比jdbc连接的方式更为高效的将数据导入到关系数据库中。
+
+
+
+
+
+
+
+
+
+
+
+

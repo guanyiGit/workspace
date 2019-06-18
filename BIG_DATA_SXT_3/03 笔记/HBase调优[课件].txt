@@ -1,0 +1,85 @@
+
+	在集群上进行性能测试，形成正确正确的配置参数组合，需要反复尝试优化很多个参数，不存在拿来就能用的秘诀。
+
+
+随机读密集型：
+
+	对于随机读密集型工作负载，高效利用缓存和更好的索引，会带来更高的性能。
+
+	hfile.block.cache.size     0.4     
+
+	- 块缓存是读缓存，该属性定义块缓存可以使用的堆的最大百分比   对于随机读密集型负载，增加缓存使用的堆的百分比。
+
+	hbase.regionserver.global.memstore.lowerLimit   0.38
+
+	- memstore的占堆的最小百分比    减少占用百分比
+
+	hbase.regionserver.global.memstore.upperLimit   0.4 
+
+	- memstore的占堆的最大百分比    减少占用百分比
+
+	
+	HFile 数据块大小
+
+	- 该参数设置为指定表的列族配置的一部分，数据块越小，索引粒度越细。可以尝试小一些值。
+
+	布隆过滤器
+
+	- 可以在列族层次打开布隆过滤器，打开布隆过滤器可以减少为查找指定行的key value对象而读取的hfie的数量。
+
+	激进缓存
+
+	- 可以在列族层次设置该参数，以便可以比其他列族更激进的进行缓存。
+
+ 	关闭其他表和列族的缓存。
+
+顺序读密集型：
+	
+	对于顺序读密集型工作负载，读缓存不会带来大多性能提升；除非顺序读的规模很小并且限定在特定的行健范围。
+
+	hfile数据块的大小
+
+	- 该参数被设置作为列族的一部分。数据块越大，则每次硬盘寻道时间可以取出更多数据，可以大一些的值。
+
+	hbase.client.scanner.caching    100
+
+	- 该参数定义了扫描器上调用next方法取回的行的数量，该数字越高，客户端发的RPC越少。可以设置较高的值。
+	
+	 Scan.setCacheBlocks(...)API关闭数据块缓存
+
+	- 关闭数据块缓存，把读取的数据块放进缓存，会导致翻腾缓存次数太多。
+
+
+	关闭列族缓存
+
+	- 如果一张表主要使用大规模扫描访问方式，那么他的缓存可能不会提升性能。只会不断的翻腾缓存。
+
+写密集型：
+
+ 	获得更好写性能的办法是不要台频繁刷写、合并或者拆分，这段时间IO压力上升，系统会变慢。
+
+	hbase.hregion.max.filesize  10g 
+
+	- 该参数定义了region的大小。列族的存储文件超过这个大小，region将被拆分。越大，写的时候拆分越少。可以考虑调高。
+
+	hbase.hregion.memstore.flush.size   128m
+
+	- 该参数定义memstore的大小，超过这个值会被刷写到磁盘。刷写到HDFS的数据越多，生成hfile越大，会在写的时候减少生成文件的数量，从而减少合并的次数。
+
+	hbase.regionserver.global.memstore.lowerLimit   0.38
+
+	- memstore的占堆的最小百分比   增大占用百分比
+
+	hbase.regionserver.global.memstore.upperLimit   0.4 
+
+	- memstore的占堆的最大百分比   增大占用百分比
+	
+	
+	hbase.hregion.memstore.mslab.enabled   true
+
+	- 该参数配置为true ,有助于防止堆的碎片化
+
+混合型
+
+ 	对与上面的参数反复尝试找到一个最优组合。
+	
