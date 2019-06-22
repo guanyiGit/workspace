@@ -1,0 +1,4 @@
+Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+19/06/22 22:23:36 INFO SparkContext: Running Spark version 1.6.0
+19/06/22 22:23:37 ERROR SparkContext: Error initializing SparkContext.
+org.apache.spark.SparkException: An application name must be set in your configuration
