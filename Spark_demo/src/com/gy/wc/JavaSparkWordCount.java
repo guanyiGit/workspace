@@ -12,7 +12,7 @@ import scala.Tuple2;
 
 import java.util.Arrays;
 
-public class SparkWordCount {
+public class JavaSparkWordCount {
 
     static String fileName = "./scala_demo/words";
 
@@ -35,7 +35,10 @@ public class SparkWordCount {
                 .flatMap(x -> Arrays.asList(x.split(" ")))
                 .mapToPair(x -> new Tuple2<>(x, 1))
                 .reduceByKey((x, y) -> x + y)
-                .foreach(x->System.out.println(x));
+                .mapToPair(Tuple2::swap)
+                .sortByKey(false)
+                .mapToPair(Tuple2::swap)
+                .foreach(x -> System.out.println(x));
     }
 
     private static void commonWC(JavaSparkContext ctx) {
@@ -71,4 +74,7 @@ public class SparkWordCount {
     }
 
 
+    private static String call(Tuple2<Integer, String> x) {
+        return x._2;
+    }
 }

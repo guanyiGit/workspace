@@ -1,15 +1,4 @@
-19/06/22 22:35:46 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1165 bytes result sent to driver
-19/06/22 22:35:46 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 56 ms on localhost (1/1)
-19/06/22 22:35:46 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
-19/06/22 22:35:46 INFO DAGScheduler: ResultStage 1 (foreach at SparkWordCount.scala:18) finished in 0.056 s
-19/06/22 22:35:46 INFO DAGScheduler: Job 0 finished: foreach at SparkWordCount.scala:18, took 0.574655 s
-19/06/22 22:35:46 INFO SparkUI: Stopped Spark web UI at http://192.168.1.2:4040
-19/06/22 22:35:46 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
-19/06/22 22:35:46 INFO MemoryStore: MemoryStore cleared
-19/06/22 22:35:46 INFO BlockManager: BlockManager stopped
-19/06/22 22:35:46 INFO BlockManagerMaster: BlockManagerMaster stopped
-19/06/22 22:35:46 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
-19/06/22 22:35:46 INFO SparkContext: Successfully stopped SparkContext
-19/06/22 22:35:46 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
-19/06/22 22:35:46 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
-19/06/22 22:35:46 INFO ShutdownHookManager: Shutdown hook called
+JAVA JAVEEE
+HADOPP
+hbase hive
+JAVA java
