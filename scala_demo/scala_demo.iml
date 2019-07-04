@@ -7,12 +7,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="scala-sdk-2.10.4" level="project" />
     <orderEntry type="library" name="spark-lib" level="project" />
-<<<<<<< HEAD
     <orderEntry type="library" name="scala-sdk-2.10.4" level="application" />
-=======
-    <orderEntry type="library" scope="TEST" name="common-lib" level="application" />
->>>>>>> ba0bd52c2d4203f7d3226fb9116ad01c7985beae
   </component>
 </module>
