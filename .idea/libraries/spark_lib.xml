@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="spark-lib">
+    <CLASSES>
+      <root url="file://G:/disk/usr/spark-lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://G:/disk/usr/spark-lib" />
+    </SOURCES>
+    <jarDirectory url="file://G:/disk/usr/spark-lib" recursive="false" />
+    <jarDirectory url="file://G:/disk/usr/spark-lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
