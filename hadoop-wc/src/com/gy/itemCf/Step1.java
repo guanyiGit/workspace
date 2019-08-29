@@ -55,6 +55,7 @@ public class Step1 {
 	
 	 static class Step1_Mapper extends Mapper<LongWritable, Text, Text, NullWritable>{
 
+		//i161,u2625,click,2014/9/18 15:03
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
 			if(key.get()!=0){

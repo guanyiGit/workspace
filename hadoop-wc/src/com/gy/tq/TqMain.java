@@ -31,6 +31,8 @@ package com.gy.tq;
     hadoop jar TqMain.jar com.gy.tq.TqMain
 
     hdfs dfs -cat /usr/tq/output/*
+
+    找出每个月气温最高的2天
  */
 
 import org.apache.hadoop.conf.Configuration;

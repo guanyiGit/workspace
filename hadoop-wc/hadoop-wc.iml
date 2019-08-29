@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="IKAnalyzer2012_FF" level="project" />
+    <orderEntry type="library" name="hadoop-lib" level="project" />
   </component>
 </module>

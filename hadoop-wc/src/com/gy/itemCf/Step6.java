@@ -63,6 +63,13 @@ public class Step6 {
 
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
+			/*
+				u13	i405,1.0
+				u13	i406,3.0
+				u13	i527,1.0
+				u13	i407,3.0
+				u13	i528,2.0
+			 */
 			String[] tokens = Pattern.compile("[\t,]").split(value.toString());
 			String u = tokens[0];
 			String item = tokens[1];
@@ -72,13 +79,15 @@ public class Step6 {
 			k.setNum(Double.parseDouble(num));
 			V.set(item+":"+num);
 			context.write(k, V);
-
+			//u13,3.0	i405:3.0
 		}
 	}
 
 	static class Step6_Reducer extends Reducer<PairWritable, Text, Text, Text> {
 		protected void reduce(PairWritable key, Iterable<Text> values, Context context)
 				throws IOException, InterruptedException {
+			//u13,3.0	i405:3.0
+			//u13,2.0	i406:2.0
 			int i=0;
 			StringBuffer sb =new StringBuffer();
 			for(Text v :values){
@@ -90,6 +99,7 @@ public class Step6 {
 			K.set(key.getUid());
 			V.set(sb.toString());
 			context.write(K, V);
+			//u13	i405:3.0,i406:2.0,
 		}
 
 	}

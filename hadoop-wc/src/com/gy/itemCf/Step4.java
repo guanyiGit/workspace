@@ -66,14 +66,15 @@ public class Step4 {
 			FileSplit split = (FileSplit) context.getInputSplit();
 			flag = split.getPath().getParent().getName();// 判断读的数据集
 
-			System.out.println(flag + "**********************");
+			System.err.println(flag + "**********************");
 		}
 
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
 			String[] tokens = Pattern.compile("[\t,]").split(value.toString());
 			if (flag.equals("step3")) {// 同现矩阵
-				//i100:i125	1
+				//i100:i100	3
+				//i100:i105	1
 				String[] v1 = tokens[0].split(":");
 				String itemID1 = v1[0];
 				String itemID2 = v1[1];
@@ -82,12 +83,12 @@ public class Step4 {
 				//B:A 3
 				Text k = new Text(itemID1);// 以前一个物品为key 比如i100
 				Text v = new Text("A:" + itemID2 + "," + num);// A:i109,1
-
+				//i100-->A:i101,2
 				context.write(k, v);
 
 			} else if (flag.equals("step2")) {// 用户对物品喜爱得分矩阵
-				
-				//u26	i276:1,i201:1,i348:1,i321:1,i136:1,
+				//u2990	i549:2,i111:1,
+				//u2984	i381:1,i41:3,
 				String userID = tokens[0];
 				for (int i = 1; i < tokens.length; i++) {
 					String[] vector = tokens[i].split(":");
@@ -96,7 +97,7 @@ public class Step4 {
 
 					Text k = new Text(itemID); // 以物品为key 比如：i100
 					Text v = new Text("B:" + userID + "," + pref); // B:u401,2
-
+					//i100-->B:u401,2
 					context.write(k, v);
 				}
 			}
@@ -114,8 +115,8 @@ public class Step4 {
 			
 			//A  > reduce   相同的KEY为一组
 			//value:2类:
-			//物品同现A:b:2  c:4   d:8
-			//评分数据B:u1:18  u2:33   u3:22
+			//物品同现	//i100-->A:i101,2
+			//评分数据	//i100-->B:u401,2
 			for (Text line : values) {
 				String val = line.toString();
 				if (val.startsWith("A:")) {// 表示物品同现数字
@@ -160,6 +161,8 @@ public class Step4 {
 					Text k = new Text(mapkb);  //用户ID为key
 					Text v = new Text(mapk + "," + result);//基于A物品,其他物品的同现与评分(所有用户对A物品)乘机
 					context.write(k, v);
+					//u101	i102,20
+					//u102	i102,10
 				}
 			}
 		}

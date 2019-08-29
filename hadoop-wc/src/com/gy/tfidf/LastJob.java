@@ -28,9 +28,9 @@ public class LastJob {
 			
 			//2.5
 			//把微博总数加载到
-			job.addCacheFile(new Path("/data/tfidf/output/weibo1/part-r-00003").toUri());
+			job.addCacheFile(new Path("hadoop-wc/data/tfidf/output/weibo1/part-r-00003").toUri());
 			//把df加载到
-			job.addCacheFile(new Path("/data/tfidf/output/weibo2/part-r-00000").toUri());
+			job.addCacheFile(new Path("hadoop-wc/data/tfidf/output/weibo2/part-r-00000").toUri());
 			
 			
 			
