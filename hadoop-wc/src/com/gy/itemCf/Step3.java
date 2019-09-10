@@ -64,8 +64,8 @@ public class Step3 {
 		protected void map(LongWritable key, Text value,
 				Context context)
 				throws IOException, InterruptedException {
-			
-			//u3244	i469:1,i498:1,i154:1,i73:1,i162:1,
+
+			//u3244	i469:1,i498:2,i154:3,i73:1,i162:2,
 			String[]  tokens=value.toString().split("\t");
 			String[] items =tokens[1].split(",");
 			for (int i = 0; i < items.length; i++) {

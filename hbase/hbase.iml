@@ -7,6 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+<<<<<<< HEAD
+=======
+    <orderEntry type="library" scope="TEST" name="common-lib" level="application" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
     <orderEntry type="library" name="hbase-lib" level="project" />
     <orderEntry type="library" name="hadoop-lib" level="project" />
   </component>

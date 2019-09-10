@@ -14,6 +14,10 @@ public class TwoMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 	protected void map(LongWritable key, Text value, Context context)
 			throws IOException, InterruptedException {
 
+		//今天_3823890210294392	2
+		//今_3823890210294392	10
+		//count	100
+
 		// 获取当前 mapper task的数据片段（split）
 		FileSplit fs = (FileSplit) context.getInputSplit();
 		
@@ -26,6 +30,7 @@ public class TwoMapper extends Mapper<LongWritable, Text, Text, IntWritable> {
 				if (ss.length >= 2) {
 					String w = ss[0];
 					context.write(new Text(w), new IntWritable(1));
+					//豆浆 1
 				}
 			} else {
 				System.out.println(value.toString() + "-------------");

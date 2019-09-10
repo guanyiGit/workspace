@@ -29,8 +29,8 @@ public class TwoJob {
 			job.setReducerClass(TwoReduce.class);
 			
 			//mr运行时的输入数据从hdfs的哪个目录中获取
-			FileInputFormat.addInputPath(job, new Path("/data/tfidf/output/weibo1"));
-			FileOutputFormat.setOutputPath(job, new Path("/data/tfidf/output/weibo2"));
+			FileInputFormat.addInputPath(job, new Path("hadoop-wc/data/tfidf/output/weibo1"));
+			FileOutputFormat.setOutputPath(job, new Path("hadoop-wc/data/tfidf/output/weibo2"));
 			
 			boolean f= job.waitForCompletion(true);
 			if(f){

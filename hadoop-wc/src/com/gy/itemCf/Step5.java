@@ -63,6 +63,7 @@ public class Step5 {
 		 */
 		protected void map(LongWritable key, Text value, Context context)
 				throws IOException, InterruptedException {
+			//u2735	i308,1.0
 			String[] tokens = Pattern.compile("[\t,]").split(value.toString());
 			Text k = new Text(tokens[0]);// 用户为key
 			Text v = new Text(tokens[1] + "," + tokens[2]);
@@ -75,13 +76,17 @@ public class Step5 {
 				throws IOException, InterruptedException {
 			Map<String, Double> map = new HashMap<String, Double>();// 结果
 
-			//u3  >  reduce
+			//u3  >  reduce zhusu
 			//101, 11
 			//101, 12
 			//101, 8
 			//102, 12
 			//102, 32
-		
+
+			//u2735	i308,1.0
+			//		i301,11.0
+			//		i301,2.0
+
 			for (Text line : values) {// i9,4.0
 				String[] tokens = line.toString().split(",");
 				String itemID = tokens[0];

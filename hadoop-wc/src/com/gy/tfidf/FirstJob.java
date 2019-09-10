@@ -30,9 +30,9 @@ public class FirstJob {
 			job.setCombinerClass(FirstReduce.class);
 			job.setReducerClass(FirstReduce.class);
 
-			FileInputFormat.addInputPath(job, new Path("/data/tfidf/input/"));
+			FileInputFormat.addInputPath(job, new Path("hadoop-wc/data/tfidf/input/"));
 
-			Path path = new Path("/data/tfidf/output/weibo1");
+			Path path = new Path("hadoop-wc/data/tfidf/output/weibo1");
 			if (fs.exists(path)) {
 				fs.delete(path, true);
 			}

@@ -17,6 +17,16 @@ public class FirstReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
 	protected void reduce(Text key, Iterable<IntWritable> iterable,
 			Context context) throws IOException, InterruptedException {
 
+		/*
+		今天_3823890210294392	1
+		今天_3823890210294392	1
+		count 1
+		count 1
+		count 1
+		...
+
+
+		 */
 		int sum = 0;
 		for (IntWritable i : iterable) {
 			sum = sum + i.get();
@@ -25,5 +35,7 @@ public class FirstReduce extends Reducer<Text, IntWritable, Text, IntWritable> {
 			System.out.println(key.toString() + "___________" + sum);
 		}
 		context.write(key, new IntWritable(sum));
+		//今天_3823890210294392	2
+		//count	100
 	}
 }

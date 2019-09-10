@@ -23,8 +23,16 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 public class LastMapper extends Mapper<LongWritable, Text, Text, Text> {
 	// 存放微博总数
 	public static Map<String, Integer> cmap = null;
+	/*
+		count 100
+	 */
 	// 存放df
 	public static Map<String, Integer> df = null;
+	/*
+		豆浆 20
+		我 10
+		...
+	 */
 
 	// 在map方法执行之前
 	protected void setup(Context context) throws IOException,
@@ -36,6 +44,7 @@ public class LastMapper extends Mapper<LongWritable, Text, Text, Text> {
 			if (ss != null) {
 				for (int i = 0; i < ss.length; i++) {
 					URI uri = ss[i];
+					//count	100
 					if (uri.getPath().endsWith("part-r-00003")) {// 微博总数
 						Path path = new Path(uri.getPath());
 						// FileSystem fs
@@ -49,6 +58,7 @@ public class LastMapper extends Mapper<LongWritable, Text, Text, Text> {
 							cmap.put(ls[0], Integer.parseInt(ls[1].trim()));
 						}
 						br.close();
+					//豆浆	30
 					} else if (uri.getPath().endsWith("part-r-00000")) {// 词条的DF
 						df = new HashMap<String, Integer>();
 						Path path = new Path(uri.getPath());

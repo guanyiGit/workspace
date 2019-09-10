@@ -85,9 +85,9 @@ public class Step2 {
 				//u2625
 				// i161:1
 				// i161:2
-				// i161:4
+				// i162:4
 				// i162:3
-				// i161:4
+				// i163:1
 				for(Text value :i){
 					String[] vs =value.toString().split(":");
 					String item=vs[0];
@@ -99,7 +99,7 @@ public class Step2 {
 				for(Entry<String, Integer> entry :r.entrySet() ){
 					sb.append(entry.getKey()+":"+entry.getValue().intValue()+",");
 				}
-				
+				//u2625 i161:20,i162:12
 				context.write(key,new Text(sb.toString()));
 			}
 		}
