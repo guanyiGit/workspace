@@ -6,11 +6,20 @@
       <module fileurl="file://$PROJECT_DIR$/BIG_DATA_SXT_3/BIG_DATA_SXT_3.iml" filepath="$PROJECT_DIR$/BIG_DATA_SXT_3/BIG_DATA_SXT_3.iml" />
       <module fileurl="file://$PROJECT_DIR$/ML/ML.iml" filepath="$PROJECT_DIR$/ML/ML.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spark_demo/Spark_demo.iml" filepath="$PROJECT_DIR$/Spark_demo/Spark_demo.iml" />
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/bigdata.iml" filepath="$PROJECT_DIR$/.idea/bigdata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" filepath="$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbase/hbase.iml" filepath="$PROJECT_DIR$/hbase/hbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hive/hive.iml" filepath="$PROJECT_DIR$/hive/hive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaNew/javaNew.iml" filepath="$PROJECT_DIR$/javaNew/javaNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scala_demo/scala_demo.iml" filepath="$PROJECT_DIR$/scala_demo/scala_demo.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" filepath="$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" />
       <module fileurl="file://$PROJECT_DIR$/hbase/hbase.iml" filepath="$PROJECT_DIR$/hbase/hbase.iml" />
       <module fileurl="file://$PROJECT_DIR$/hive/hive.iml" filepath="$PROJECT_DIR$/hive/hive.iml" />
       <module fileurl="file://$PROJECT_DIR$/scala_demo/scala_demo.iml" filepath="$PROJECT_DIR$/scala_demo/scala_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/workspace.iml" filepath="$PROJECT_DIR$/.idea/workspace.iml" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
     </modules>
   </component>
 </project>

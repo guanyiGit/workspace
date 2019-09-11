@@ -255,7 +255,6 @@
 		},
 
 		sendDataToServer : function(data) {
-			
 			alert(data);
 			
 			// 发送数据data到服务器，其中data是一个字符串
@@ -264,6 +263,7 @@
 			i2.onerror = function() {
 				// 这里可以进行重试操作
 			};
+
 			i2.src = this.clientConfig.serverUrl + "?" + data;
 		},
 

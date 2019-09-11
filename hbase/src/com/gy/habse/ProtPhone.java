@@ -224,7 +224,7 @@ public final class ProtPhone {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
@@ -245,7 +245,7 @@ public final class ProtPhone {
         getNumBytes() {
       java.lang.Object ref = num_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         num_ = b;
@@ -272,7 +272,7 @@ public final class ProtPhone {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
@@ -288,7 +288,7 @@ public final class ProtPhone {
         getDnumBytes() {
       java.lang.Object ref = dnum_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dnum_ = b;
@@ -315,7 +315,7 @@ public final class ProtPhone {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
@@ -331,7 +331,7 @@ public final class ProtPhone {
         getTypeBytes() {
       java.lang.Object ref = type_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         type_ = b;
@@ -358,7 +358,7 @@ public final class ProtPhone {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (bs.isValidUtf8()) {
@@ -374,7 +374,7 @@ public final class ProtPhone {
         getDateBytes() {
       java.lang.Object ref = date_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         date_ = b;
@@ -665,19 +665,19 @@ public final class ProtPhone {
 
       public final boolean isInitialized() {
         if (!hasNum()) {
-          
+
           return false;
         }
         if (!hasDnum()) {
-          
+
           return false;
         }
         if (!hasType()) {
-          
+
           return false;
         }
         if (!hasDate()) {
-          
+
           return false;
         }
         return true;
@@ -746,7 +746,7 @@ public final class ProtPhone {
           getNumBytes() {
         java.lang.Object ref = num_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           num_ = b;
@@ -835,7 +835,7 @@ public final class ProtPhone {
           getDnumBytes() {
         java.lang.Object ref = dnum_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dnum_ = b;
@@ -909,7 +909,7 @@ public final class ProtPhone {
           getTypeBytes() {
         java.lang.Object ref = type_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           type_ = b;
@@ -983,7 +983,7 @@ public final class ProtPhone {
           getDateBytes() {
         java.lang.Object ref = date_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           date_ = b;
@@ -1046,7 +1046,7 @@ public final class ProtPhone {
     /**
      * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
      */
-    java.util.List<com.gy.habse.ProtPhone.phoneDetail> 
+    java.util.List<com.gy.habse.ProtPhone.phoneDetail>
         getDayPhoneDetailList();
     /**
      * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
@@ -1059,7 +1059,7 @@ public final class ProtPhone {
     /**
      * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
      */
-    java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder> 
+    java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder>
         getDayPhoneDetailOrBuilderList();
     /**
      * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
@@ -1180,7 +1180,7 @@ public final class ProtPhone {
     /**
      * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
      */
-    public java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder> 
+    public java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder>
         getDayPhoneDetailOrBuilderList() {
       return dayPhoneDetail_;
     }
@@ -1433,7 +1433,7 @@ public final class ProtPhone {
               dayPhoneDetailBuilder_ = null;
               dayPhoneDetail_ = other.dayPhoneDetail_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              dayPhoneDetailBuilder_ = 
+              dayPhoneDetailBuilder_ =
                 com.google.protobuf.GeneratedMessage.alwaysUseFieldBuilders ?
                    getDayPhoneDetailFieldBuilder() : null;
             } else {
@@ -1448,7 +1448,7 @@ public final class ProtPhone {
       public final boolean isInitialized() {
         for (int i = 0; i < getDayPhoneDetailCount(); i++) {
           if (!getDayPhoneDetail(i).isInitialized()) {
-            
+
             return false;
           }
         }
@@ -1669,7 +1669,7 @@ public final class ProtPhone {
       /**
        * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
        */
-      public java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder> 
+      public java.util.List<? extends com.gy.habse.ProtPhone.phoneDetailOrBuilder>
            getDayPhoneDetailOrBuilderList() {
         if (dayPhoneDetailBuilder_ != null) {
           return dayPhoneDetailBuilder_.getMessageOrBuilderList();
@@ -1695,12 +1695,12 @@ public final class ProtPhone {
       /**
        * <code>repeated .com.gy.habse.phoneDetail dayPhoneDetail = 1;</code>
        */
-      public java.util.List<com.gy.habse.ProtPhone.phoneDetail.Builder> 
+      public java.util.List<com.gy.habse.ProtPhone.phoneDetail.Builder>
            getDayPhoneDetailBuilderList() {
         return getDayPhoneDetailFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilder<
-          com.gy.habse.ProtPhone.phoneDetail, com.gy.habse.ProtPhone.phoneDetail.Builder, com.gy.habse.ProtPhone.phoneDetailOrBuilder> 
+          com.gy.habse.ProtPhone.phoneDetail, com.gy.habse.ProtPhone.phoneDetail.Builder, com.gy.habse.ProtPhone.phoneDetailOrBuilder>
           getDayPhoneDetailFieldBuilder() {
         if (dayPhoneDetailBuilder_ == null) {
           dayPhoneDetailBuilder_ = new com.google.protobuf.RepeatedFieldBuilder<

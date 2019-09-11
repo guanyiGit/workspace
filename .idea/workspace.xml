@@ -2,18 +2,85 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
+<<<<<<< HEAD
+      <artifact name="BIG_DATA_LOG2:Web exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f363018f-95e4-475a-84b2-5c581dd8bea5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/BIG_DATA_LOG2_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-annotations-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-checkstyle-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-client-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-common-0.98.12.1-hadoop2-tests.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-common-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-examples-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-hadoop-compat-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-hadoop2-compat-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-it-0.98.12.1-hadoop2-tests.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-it-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-prefix-tree-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-protocol-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-rest-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-server-0.98.12.1-hadoop2-tests.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-server-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-shell-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-testing-util-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/hbase-thrift-0.98.12.1-hadoop2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/high-scale-lib-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/htrace-core-2.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hbase/lib/netty-3.6.6.Final.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BIG_DATA_SXT_3/BIG_DATA_SXT_3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BIG_DATA_SXT_3/BIG_DATA_SXT_3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hadoop-wc/hadoop-wc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase/hbase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/hbase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaNew/javaNew.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaNew/javaNew.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1$$anonfun$apply$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1$$anonfun$apply$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$$anonfun$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/output/production/scala_demo/com/gy/streaming/TransformOperator$.class" afterDir="false" />
+    </list>
+=======
       <artifact name="BIG_DATA_LOG2" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="769f70c2-2aa0-4769-b840-56e6953326cd" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/ML/target/" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_LOG2/WebContent/js/analytics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+=======
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
@@ -25,22 +92,211 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/mr/ald/AnalyserLogDataMapper.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="76">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/mr/ald/AnalyserLogDataRunner.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+=======
+            <state relative-caret-position="665">
+              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/javaNew/src/com/gy/java8/TestStreamAPI2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+=======
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/tfidf/LastMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1501">
+              <caret line="93" selection-start-line="93" selection-end-line="93" />
+              <folding>
+                <element signature="n#!!doc;n#df#0;n#LastMapper#0" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#59895#0" expanded="true" />
+                <element signature="e#2739#2740#0" expanded="true" />
+                <element signature="e#2775#2776#0" expanded="true" />
+                <element signature="e#2829#2830#0" expanded="true" />
+                <element signature="e#2865#2866#0" expanded="true" />
+                <element signature="e#3041#3042#0" expanded="true" />
+                <element signature="e#3080#3081#0" expanded="true" />
+                <element signature="e#4966#4967#0" expanded="true" />
+                <element signature="e#5061#5062#0" expanded="true" />
+                <element signature="e#5505#5870#0" expanded="true" />
+                <element signature="e#5869#5870#0" expanded="true" />
+                <element signature="e#5967#5968#0" expanded="true" />
+                <element signature="e#5994#5995#0" expanded="true" />
+                <element signature="e#6365#6366#0" expanded="true" />
+                <element signature="e#6427#6428#0" expanded="true" />
+                <element signature="e#7845#7846#0" expanded="true" />
+                <element signature="e#7907#7908#0" expanded="true" />
+                <element signature="e#9065#9066#0" expanded="true" />
+                <element signature="e#9127#9128#0" expanded="true" />
+                <element signature="e#10285#10286#0" expanded="true" />
+                <element signature="e#10347#10348#0" expanded="true" />
+                <element signature="e#17083#17084#0" expanded="true" />
+                <element signature="e#17182#17183#0" expanded="true" />
+                <element signature="e#17660#17661#0" expanded="true" />
+                <element signature="e#17711#17712#0" expanded="true" />
+                <element signature="e#18068#18069#0" expanded="true" />
+                <element signature="e#18106#18107#0" expanded="true" />
+                <element signature="e#18497#18498#0" expanded="true" />
+                <element signature="e#18556#18557#0" expanded="true" />
+                <element signature="e#18648#18649#0" expanded="true" />
+                <element signature="e#18747#18748#0" expanded="true" />
+                <element signature="e#22488#22489#0" expanded="true" />
+                <element signature="e#22554#22555#0" expanded="true" />
+                <element signature="e#25225#25226#0" expanded="true" />
+                <element signature="e#25291#25292#0" expanded="true" />
+                <element signature="e#27260#27261#0" expanded="true" />
+                <element signature="e#27326#27327#0" expanded="true" />
+                <element signature="e#29295#29296#0" expanded="true" />
+                <element signature="e#29361#29362#0" expanded="true" />
+                <element signature="e#33097#33098#0" expanded="true" />
+                <element signature="e#33133#33134#0" expanded="true" />
+                <element signature="e#33190#33191#0" expanded="true" />
+                <element signature="e#33226#33227#0" expanded="true" />
+                <element signature="e#33402#33403#0" expanded="true" />
+                <element signature="e#33441#33442#0" expanded="true" />
+                <element signature="e#35344#35345#0" expanded="true" />
+                <element signature="e#35442#35443#0" expanded="true" />
+                <element signature="e#35898#36272#0" expanded="true" />
+                <element signature="e#36271#36272#0" expanded="true" />
+                <element signature="e#36372#36373#0" expanded="true" />
+                <element signature="e#36399#36400#0" expanded="true" />
+                <element signature="e#36782#36783#0" expanded="true" />
+                <element signature="e#36818#36819#0" expanded="true" />
+                <element signature="e#37033#37034#0" expanded="true" />
+                <element signature="e#37069#37070#0" expanded="true" />
+                <element signature="e#37202#37203#0" expanded="true" />
+                <element signature="e#37245#37246#0" expanded="true" />
+                <element signature="e#37413#37414#0" expanded="true" />
+                <element signature="e#37460#37461#0" expanded="true" />
+                <element signature="e#37735#37736#0" expanded="true" />
+                <element signature="e#37800#37801#0" expanded="true" />
+                <element signature="e#42561#42562#0" expanded="true" />
+                <element signature="e#42663#42664#0" expanded="true" />
+                <element signature="e#43153#43154#0" expanded="true" />
+                <element signature="e#43204#43205#0" expanded="true" />
+                <element signature="e#43604#43605#0" expanded="true" />
+                <element signature="e#43642#43643#0" expanded="true" />
+                <element signature="e#43987#43988#0" expanded="true" />
+                <element signature="e#44046#44047#0" expanded="true" />
+                <element signature="e#56223#56224#0" expanded="true" />
+                <element signature="e#56296#56297#0" expanded="true" />
+                <element signature="e#57942#57943#0" expanded="true" />
+                <element signature="e#57969#57970#0" expanded="true" />
+                <marker date="1568122054029" expanded="true" signature="0:59894" ph="..." />
+              </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/itemCf/Step5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1045">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="jar://G:/disk/usr/hadoop-lib/protobuf-java-2.5.0.jar!/com/google/protobuf/ExtensionRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+=======
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/wc/MyMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/fof/step2/FofStep2SortComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="282">
+              <caret line="1308" column="26" selection-start-line="1308" selection-start-column="26" selection-end-line="1308" selection-end-column="26" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/transformer/hive/DateDimensionUDF.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+=======
+      <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/mr/ald/AnalyserLogDataRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+=======
+        <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="226" column="24" lean-forward="true" selection-start-line="226" selection-start-column="24" selection-end-line="226" selection-end-column="24" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/ip/IPSeeker.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+=======
+        <entry file="jar://$PROJECT_DIR$/../libs/hadoop-lib/protobuf-java-2.5.0.jar!/com/google/protobuf/AbstractMessageLite.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/UserAgentUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
@@ -48,15 +304,59 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/UserAgentUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-565">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/tq/TqMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1216">
+              <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/LoggerUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/tfidf/TwoMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="21" column="59" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="59" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/transformer/hive/DateDimensionUDF.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
               <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+=======
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/wc/WCMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+=======
+        <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/tfidf/TwoReduce.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
             </state>
           </provider>
         </entry>
@@ -68,12 +368,30 @@
       <list>
         <option value="Package Object" />
         <option value="Class" />
+<<<<<<< HEAD
         <option value="Python Script" />
+=======
+<<<<<<< HEAD
+        <option value="Python Script" />
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
+<<<<<<< HEAD
+      <find>score</find>
+      <find>register</find>
+      <find>sales</find>
+      <find>Vectors</find>
+      <find>take</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+=======
       <find>hbase</find>
       <find>Master</find>
       <find>fieldSeparator</find>
@@ -94,11 +412,63 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/Main.java" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/Main.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/Lesson_Actor.scala" />
+        <option value="$PROJECT_DIR$/Spark_demo/src/com/gy/start/SparkWordCount.java" />
+        <option value="$PROJECT_DIR$/scala_demo/words" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/wc/SparkWordCount.scala" />
+        <option value="$PROJECT_DIR$/Spark_demo/src/com/gy/wc/SparkWordCount.java" />
+        <option value="$PROJECT_DIR$/Spark_demo/words" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/transformations/Main.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/transformations/Day02.java" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/transformations/Day02.scala" />
+        <option value="$PROJECT_DIR$/Spark_demo/src/com/gy/transformations/Demo2.java" />
+        <option value="$PROJECT_DIR$/scala_demo/scala_demo.iml" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/Person.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/json2" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/CreateDFromParquet.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/Day01.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/CreateDfFromHive.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/Udf.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/Udaf.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/sql/RowNumberWindowFun.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/streaming/SparkStreamingTest.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/streaming/ReduceBykeyAndWindow.scala" />
+        <option value="$PROJECT_DIR$/scala_demo/src/com/gy/streaming/TransformOperator.scala" />
+        <option value="$PROJECT_DIR$/ML/data/lpsa.data" />
+        <option value="$PROJECT_DIR$/ML/src/com/gy/lineLogic/Main.scala" />
+        <option value="$PROJECT_DIR$/ML/src/com/gy/lineLogic/scriptFile.scala" />
+        <option value="$PROJECT_DIR$/ML/src/com/gy/learn/bayes/Main.py" />
+        <option value="$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java" />
+        <option value="$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/ip/IPSeeker.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\workspace\repository" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="900" />
+    <option name="y" value="78" />
+    <option name="width" value="1191" />
+    <option name="height" value="983" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+=======
         <option value="$PROJECT_DIR$/hive/src/com/gy/HiveJdbcClient.java" />
         <option value="$PROJECT_DIR$/.idea/modules.xml" />
         <option value="$PROJECT_DIR$/BIG_DATA_LOG2/src/com/sxt/client/AnalyticsEngineSDK.java" />
@@ -188,59 +558,315 @@
     <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+      <pane id="PackagesPane" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <pane id="Scope" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_LOG2" type="462c0819:PsiDirectoryNode" />
+              <item name="WebContent" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sxt" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
               <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sxt" type="462c0819:PsiDirectoryNode" />
               <item name="etl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+              <item name="etl" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+              <item name="etl" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-wc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-wc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-wc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-wc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+              <item name="fof" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop-wc" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+              <item name="fof" type="462c0819:PsiDirectoryNode" />
+              <item name="step2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
               <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sxt" type="462c0819:PsiDirectoryNode" />
+              <item name="etl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+<<<<<<< HEAD
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="BIG_DATA_SXT_3" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+              <item name="hbase" type="462c0819:PsiDirectoryNode" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sxt" type="462c0819:PsiDirectoryNode" />
               <item name="etl" type="462c0819:PsiDirectoryNode" />
               <item name="ald" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="javaNew" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="javaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="javaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="javaNew" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+              <item name="java8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+              <item name="bayes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="bigdata" type="b2602c69:ProjectViewProjectNode" />
+              <item name="bigdata" type="462c0819:PsiDirectoryNode" />
+              <item name="ML" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="gy" type="462c0819:PsiDirectoryNode" />
+              <item name="lineLogic" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
+=======
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="jdk1.8.0_162" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/BIG_DATA_LOG2/WebContent/WEB-INF/web.xml" />
+=======
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +878,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/Spark_demo/src/com/gy" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/BIG_DATA_SXT_3/lib" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hadoop-wc/src/com/gy/tq" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -261,6 +892,26 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+<<<<<<< HEAD
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bigdata\hbase\lib" />
+      <recent name="E:\bigdata\ML\src\com\gy\learn\bayes" />
+      <recent name="E:\bigdata\ML\data" />
+      <recent name="E:\bigdata\scala_demo\src\com\gy\sql" />
+      <recent name="G:\bigdata\scala_demo\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bigdata\scala_demo" />
+      <recent name="G:\bigdata\scala_demo" />
+      <recent name="G:\bigdata\scala_demo\src" />
+=======
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.59885055" />
@@ -281,6 +932,16 @@
       <recent name="D:\disk\workspace\hadoop-wc\src\com\gy\itemCf" />
       <recent name="D:\disk\workspace\hadoop-wc\src\com\gy\pagerank" />
     </key>
+<<<<<<< HEAD
+=======
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\disk\workspace\hadoop-wc\data\tfidf\input" />
+      <recent name="D:\disk\workspace\hadoop-wc\data\itemcf\input" />
+      <recent name="D:\disk\workspace\hadoop-wc\data\pagerank\input" />
+      <recent name="D:\disk\workspace\hadoop-wc\data\pagerank" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+    </key>
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -294,6 +955,7 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Application.AnalyserLogDataRunner">
     <configuration name="AnalyserLogDataRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sxt.etl.mr.ald.AnalyserLogDataRunner" />
@@ -301,6 +963,25 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sxt.etl.mr.ald.*" />
+=======
+<<<<<<< HEAD
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.96">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.lineLogic.Main" />
+      <module name="ML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.lineLogic.*" />
+=======
+  <component name="RunManager" selected="Application.TwoJob">
+    <configuration name="FirstJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.tfidf.FirstJob" />
+      <module name="hadoop-wc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.tfidf.*" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -308,25 +989,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MyWC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gy.wc.MyWC" />
       <module name="hadoop-wc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gy.wc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+=======
+<<<<<<< HEAD
+    <configuration name="ReduceBykeyAndWindow" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.streaming.ReduceBykeyAndWindow" />
+      <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.streaming.*" />
+=======
     <configuration name="RunJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gy.pagerank.RunJob" />
       <module name="hadoop-wc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gy.pagerank.*" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -334,12 +1020,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <configuration name="RunJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.pagerank.RunJob" />
+      <module name="hadoop-wc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.pagerank.*" />
+=======
+<<<<<<< HEAD
+    <configuration name="SparkStreamingTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.streaming.SparkStreamingTest" />
+      <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.streaming.*" />
+=======
+    <configuration name="StartRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.itemCf.StartRun" />
+      <module name="hadoop-wc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.itemCf.*" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+<<<<<<< HEAD
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sxt.log.test.Test" />
       <module name="BIG_DATA_LOG2" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.sxt.log.test.*" />
+=======
+<<<<<<< HEAD
+    <configuration name="TransformOperator" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.streaming.TransformOperator" />
+      <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.streaming.*" />
+=======
+    <configuration name="TwoJob" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.tfidf.TwoJob" />
+      <module name="hadoop-wc" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.tfidf.*" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -347,11 +1082,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="MyWC.blaks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hadoop-wc" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gy.hdfs.*" />
+=======
+<<<<<<< HEAD
+    <configuration name="Udaf" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.gy.sql.Udaf" />
+      <module name="scala_demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gy.sql.*" />
+=======
+    <configuration name="healthPredict" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.soholy.py.scala.lr.healthPredict" />
+      <module name="ML" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soholy.py.scala.lr.*" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,7 +1116,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+=======
+<<<<<<< HEAD
+    <configuration name="Tomcat 7.0.96" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="jdk1.8.0_162" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/BIG_DATA_LOG2_Web_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="BIG_DATA_LOG2:Web exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BIG_DATA_LOG2_Web_exploded" />
+=======
+    <configuration name="tomcat9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8 https" ALTERNATIVE_JRE_ENABLED="false">
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8000/BIG_DATA_LOG2/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -371,19 +1138,19 @@
         <artifact name="BIG_DATA_LOG2">
           <settings>
             <option name="CONTEXT_PATH" value="/BIG_DATA_LOG2" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_workspace" />
+<<<<<<< HEAD
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_7_0_96_bigdata" />
       </server-settings>
-      <log_file checked="false" alias="Tomcat Localhost Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost.*" />
-      <log_file checked="false" alias="Tomcat Catalina Log" path="%IDEA_RUN:CATALINA_BASE%/logs/catalina.*" />
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="10670" />
+        <option name="DEBUG_PORT" value="49762" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -433,6 +1200,104 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
+          <artifact name="BIG_DATA_LOG2:Web exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.96" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="jdk1.8.0_162">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_bigdata" />
+=======
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_workspace" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+      </server-settings>
+      <log_file checked="false" alias="Tomcat Localhost Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost.*" />
+      <log_file checked="false" alias="Tomcat Catalina Log" path="%IDEA_RUN:CATALINA_BASE%/logs/catalina.*" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+<<<<<<< HEAD
+        <option name="DEBUG_PORT" value="49762" />
+=======
+        <option name="DEBUG_PORT" value="10670" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+<<<<<<< HEAD
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ReduceBykeyAndWindow" />
+      <item itemvalue="Application.SparkStreamingTest" />
+      <item itemvalue="Application.TransformOperator" />
+      <item itemvalue="Application.Udaf" />
+      <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TransformOperator" />
+        <item itemvalue="Application.ReduceBykeyAndWindow" />
+        <item itemvalue="Application.SparkStreamingTest" />
+        <item itemvalue="Application.Udaf" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="dontShowConversionDialog" value="true" />
+  </component>
+=======
+        <option name="BuildArtifacts" enabled="true">
           <artifact name="BIG_DATA_LOG2" />
         </option>
       </method>
@@ -455,11 +1320,42 @@
       </list>
     </recent_temporary>
   </component>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="f363018f-95e4-475a-84b2-5c581dd8bea5" name="Default Changelist" comment="" />
+      <created>1560863664478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560863664478</updated>
+      <workItem from="1560863682341" duration="5904000" />
+      <workItem from="1561209355413" duration="3041000" />
+      <workItem from="1561213145885" duration="4077000" />
+      <workItem from="1561297347362" duration="2802000" />
+      <workItem from="1561554954903" duration="1816000" />
+      <workItem from="1561558945015" duration="726000" />
+      <workItem from="1561642073029" duration="1849000" />
+      <workItem from="1561787750630" duration="4316000" />
+      <workItem from="1561901062552" duration="2785000" />
+      <workItem from="1561983911364" duration="1320000" />
+      <workItem from="1562245414194" duration="7986000" />
+      <workItem from="1562342933605" duration="1568000" />
+      <workItem from="1562409143445" duration="6223000" />
+      <workItem from="1562475032824" duration="19615000" />
+      <workItem from="1562587591316" duration="5257000" />
+      <workItem from="1562763709402" duration="687000" />
+      <workItem from="1563284541798" duration="311000" />
+      <workItem from="1564670717464" duration="3073000" />
+      <workItem from="1565616797857" duration="1539000" />
+      <workItem from="1565789713022" duration="2185000" />
+      <workItem from="1567601976309" duration="29000" />
+      <workItem from="1567605865224" duration="807000" />
+      <workItem from="1568120824471" duration="3738000" />
+=======
       <changelist id="769f70c2-2aa0-4769-b840-56e6953326cd" name="Default Changelist" comment="" />
       <created>1558678490675</created>
       <option name="number" value="Default" />
@@ -481,11 +1377,16 @@
       <workItem from="1565934795270" duration="5031000" />
       <workItem from="1566888506225" duration="22871000" />
       <workItem from="1566985441033" duration="1654000" />
+<<<<<<< HEAD
       <workItem from="1567040469802" duration="2331000" />
       <workItem from="1567153234098" duration="43000" />
       <workItem from="1567157156377" duration="2117000" />
       <workItem from="1568080896978" duration="3258000" />
       <workItem from="1568166694212" duration="8016000" />
+=======
+      <workItem from="1567040469802" duration="1730000" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
     </task>
     <servers />
   </component>
@@ -495,31 +1396,113 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="92293000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="81654000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="900" y="78" width="1191" height="983" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21308577" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.32979977" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.31848553" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.47722343" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.56183743" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32391047" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.3295129" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31822863" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+=======
+    <option name="totallyTimeSpent" value="78258000" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49509802" visible="true" weight="0.10021322" />
       <window_info id="Structure" order="1" sideWeight="0.50428396" side_tool="true" weight="0.1532567" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49777284" visible="true" weight="0.14872068" />
+      <window_info id="Structure" order="1" sideWeight="0.5022272" side_tool="true" visible="true" weight="0.14872068" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
+<<<<<<< HEAD
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46770602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38084632" />
+=======
       <window_info id="Favorites" order="6" sideWeight="0.50059456" side_tool="true" weight="0.22413793" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3418708" />
+<<<<<<< HEAD
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46993318" />
+=======
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3608018" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.15808824" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Messages" order="10" weight="0.41870824" />
+=======
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32939634" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+=======
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.14476615" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3292683" />
@@ -528,14 +1511,19 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.2824302" />
       <window_info anchor="right" id="Maven" order="3" weight="0.26865673" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="SciView" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
+<<<<<<< HEAD
+    </layout-to-restore>
+=======
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -548,13 +1536,29 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
+<<<<<<< HEAD
+        <expression-string>tranData(1).map(_.features)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>splits(2)</expression-string>
+        <language-id>Scala</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>splits(1)</expression-string>
+        <language-id>Scala</language-id>
+=======
         <expression-string>node.toString()</expression-string>
         <language-id>JAVA</language-id>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/tfidf/tf-idf.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -581,6 +1585,177 @@
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
+=======
+<<<<<<< HEAD
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="187" selection-start-line="187" selection-end-line="187" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.841.3410/ObjectSerializableTest.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.841.3411/RuleSerializableTest.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.841.3412/StaticSerializableTest.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.841.3413/ExtendsSerializableTest.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.841.3414/CopyOfStaticSerializableTest111.java" />
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/types/DataTypes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="18" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/RowFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/util/ReturnStatementFinder.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/parquet/part-r-00000-96a41db6-5278-4ed5-a1fd-d9bfebf70b92.gz.parquet" />
+    <entry file="file://$PROJECT_DIR$/scala_demo/parquet/_metadata">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/SQLContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="95" column="6" selection-start-line="95" selection-start-column="6" selection-end-line="95" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/student_scores">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/student_infos">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hive/src/com/gy/text/input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/SparkContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/sql/UDFRegistration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/Udf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <folding>
+            <element signature="e#20#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/Udaf.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="32" selection-start-line="10" selection-start-column="3" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="e#20#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/CreateDFromParquet.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding>
+            <element signature="e#20#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/sales">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/CreateDfFromHive.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="110" />
+          <folding>
+            <element signature="e#20#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/RowNumberWindowFun.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#20#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/transformations/Day02.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/transformations/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/spark/Day03.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/sql/Day01.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-493">
+          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#20#47#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/itemCf/Step1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
         </state>
       </provider>
     </entry>
@@ -719,12 +1894,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BIG_DATA_LOG2/WebContent/js/analytics.js">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="54">
           <caret line="320" selection-start-line="320" selection-end-line="320" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BIG_DATA_LOG2/WebContent/WEB-INF/web.xml">
+=======
+        <state relative-caret-position="326">
+          <caret line="39" column="74" selection-start-line="39" selection-start-column="74" selection-end-line="39" selection-end-column="74" />
+          <folding>
+            <element signature="e#1367#1384#0" expanded="true" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/streaming/dstream/PairDStreamFunctions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/streaming/SparkStreamingTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="30" column="30" lean-forward="true" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#26#99#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/itemCf/Step6.java">
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
@@ -736,12 +1939,121 @@
         <state relative-caret-position="266">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
+<<<<<<< HEAD
             <element signature="imports" expanded="true" />
+=======
+            <element signature="e#3351#3352#0" expanded="true" />
+            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#3406#3407#0" expanded="true" />
+            <element signature="e#3429#3430#0" expanded="true" />
+            <element signature="e#3457#3458#0" expanded="true" />
+            <element signature="e#3476#3477#0" expanded="true" />
+            <element signature="e#3512#3513#0" expanded="true" />
+            <element signature="e#3535#3536#0" expanded="true" />
+            <element signature="e#3613#3614#0" expanded="true" />
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#4016#4017#0" expanded="true" />
+            <element signature="e#4055#4056#0" expanded="true" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/streaming/ReduceBykeyAndWindow.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/streaming/dstream/DStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="51" column="50" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scala_demo/src/com/gy/streaming/TransformOperator.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#26#89#0" expanded="true" />
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/transformer/service/impl/DimensionConverterImpl.java">
+=======
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/broadcast/Broadcast.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.776.841/LinearRegression.scala" />
+    <entry file="file://$PROJECT_DIR$/ML/src/com/gy/lineLogic/scriptFile.scala" />
+    <entry file="file://$PROJECT_DIR$/ML/src/com/gy/lineLogic/Main.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="66" column="7" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+          <folding>
+            <element signature="e#26#70#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/src/com/gy/learn/bayes/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="12" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/src/com/gy/learn/bayes/sms_spam.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/data/lpsa.data">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/spark-lib/spark-assembly-1.6.0-hadoop2.6.0.jar!/org/apache/spark/mllib/regression/LabeledPoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="189" selection-start-line="2" selection-start-column="183" selection-end-line="2" selection-end-column="189" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ML/src/com/gy/learn/bayes/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIG_DATA_LOG2/WebContent/js/analytics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaNew/src/com/gy/java8/TestStreamAPI2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/hadoop-wc/data/tfidf/input/weibo.txt">
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
@@ -850,12 +2162,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/wc/MyWC.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="221">
           <caret line="35" column="41" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/hdfs/MyWC.java">
+=======
+        <state relative-caret-position="1501">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+          <folding>
+            <element signature="n#!!doc;n#df#0;n#LastMapper#0" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/wc/WCMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/com/gy/habse/ProtPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#59895#0" expanded="true" />
+            <element signature="e#2739#2740#0" expanded="true" />
+            <element signature="e#2775#2776#0" expanded="true" />
+            <element signature="e#2829#2830#0" expanded="true" />
+            <element signature="e#2865#2866#0" expanded="true" />
+            <element signature="e#3041#3042#0" expanded="true" />
+            <element signature="e#3080#3081#0" expanded="true" />
+            <element signature="e#4966#4967#0" expanded="true" />
+            <element signature="e#5061#5062#0" expanded="true" />
+            <element signature="e#5505#5870#0" expanded="true" />
+            <element signature="e#5869#5870#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+            <element signature="e#5994#5995#0" expanded="true" />
+            <element signature="e#6365#6366#0" expanded="true" />
+            <element signature="e#6427#6428#0" expanded="true" />
+            <element signature="e#7845#7846#0" expanded="true" />
+            <element signature="e#7907#7908#0" expanded="true" />
+            <element signature="e#9065#9066#0" expanded="true" />
+            <element signature="e#9127#9128#0" expanded="true" />
+            <element signature="e#10285#10286#0" expanded="true" />
+            <element signature="e#10347#10348#0" expanded="true" />
+            <element signature="e#17083#17084#0" expanded="true" />
+            <element signature="e#17182#17183#0" expanded="true" />
+            <element signature="e#17660#17661#0" expanded="true" />
+            <element signature="e#17711#17712#0" expanded="true" />
+            <element signature="e#18068#18069#0" expanded="true" />
+            <element signature="e#18106#18107#0" expanded="true" />
+            <element signature="e#18497#18498#0" expanded="true" />
+            <element signature="e#18556#18557#0" expanded="true" />
+            <element signature="e#18648#18649#0" expanded="true" />
+            <element signature="e#18747#18748#0" expanded="true" />
+            <element signature="e#22488#22489#0" expanded="true" />
+            <element signature="e#22554#22555#0" expanded="true" />
+            <element signature="e#25225#25226#0" expanded="true" />
+            <element signature="e#25291#25292#0" expanded="true" />
+            <element signature="e#27260#27261#0" expanded="true" />
+            <element signature="e#27326#27327#0" expanded="true" />
+            <element signature="e#29295#29296#0" expanded="true" />
+            <element signature="e#29361#29362#0" expanded="true" />
+            <element signature="e#33097#33098#0" expanded="true" />
+            <element signature="e#33133#33134#0" expanded="true" />
+            <element signature="e#33190#33191#0" expanded="true" />
+            <element signature="e#33226#33227#0" expanded="true" />
+            <element signature="e#33402#33403#0" expanded="true" />
+            <element signature="e#33441#33442#0" expanded="true" />
+            <element signature="e#35344#35345#0" expanded="true" />
+            <element signature="e#35442#35443#0" expanded="true" />
+            <element signature="e#35898#36272#0" expanded="true" />
+            <element signature="e#36271#36272#0" expanded="true" />
+            <element signature="e#36372#36373#0" expanded="true" />
+            <element signature="e#36399#36400#0" expanded="true" />
+            <element signature="e#36782#36783#0" expanded="true" />
+            <element signature="e#36818#36819#0" expanded="true" />
+            <element signature="e#37033#37034#0" expanded="true" />
+            <element signature="e#37069#37070#0" expanded="true" />
+            <element signature="e#37202#37203#0" expanded="true" />
+            <element signature="e#37245#37246#0" expanded="true" />
+            <element signature="e#37413#37414#0" expanded="true" />
+            <element signature="e#37460#37461#0" expanded="true" />
+            <element signature="e#37735#37736#0" expanded="true" />
+            <element signature="e#37800#37801#0" expanded="true" />
+            <element signature="e#42561#42562#0" expanded="true" />
+            <element signature="e#42663#42664#0" expanded="true" />
+            <element signature="e#43153#43154#0" expanded="true" />
+            <element signature="e#43204#43205#0" expanded="true" />
+            <element signature="e#43604#43605#0" expanded="true" />
+            <element signature="e#43642#43643#0" expanded="true" />
+            <element signature="e#43987#43988#0" expanded="true" />
+            <element signature="e#44046#44047#0" expanded="true" />
+            <element signature="e#56223#56224#0" expanded="true" />
+            <element signature="e#56296#56297#0" expanded="true" />
+            <element signature="e#57942#57943#0" expanded="true" />
+            <element signature="e#57969#57970#0" expanded="true" />
+            <marker date="1568122054029" expanded="true" signature="0:59894" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/disk/usr/hadoop-lib/protobuf-java-2.5.0.jar!/com/google/protobuf/ExtensionRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/fof/step2/FofStep2SortComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/transformer/hive/DateDimensionUDF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/ip/IPSeeker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="90" column="24" lean-forward="true" selection-start-line="90" selection-start-column="24" selection-end-line="90" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/UserAgentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-565">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/util/LoggerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+=======
+    <entry file="file://$PROJECT_DIR$/hadoop-wc/src/com/gy/itemCf/Step5.java">
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
@@ -909,8 +2371,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BIG_DATA_SXT_3/src/com/sxt/etl/mr/ald/AnalyserLogDataRunner.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="205">
           <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+=======
+        <state relative-caret-position="365">
+          <caret line="226" column="24" lean-forward="true" selection-start-line="226" selection-start-column="24" selection-end-line="226" selection-end-column="24" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
         </state>
       </provider>
     </entry>
@@ -920,11 +2388,19 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+<<<<<<< HEAD
+          <last-edited>BIG_DATA_LOG2:Web exploded</last-edited>
+=======
           <last-edited>BIG_DATA_LOG2</last-edited>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+<<<<<<< HEAD
+                <option value="0.5" />
+=======
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
               </list>
             </option>
           </splitter-proportions>
@@ -932,7 +2408,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+          <last-edited>Web</last-edited>
+=======
           <last-edited>Web (BIG_DATA_LOG2)|Web</last-edited>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -944,7 +2424,11 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+          <last-edited>scala-sdk-2.10.4</last-edited>
+=======
           <last-edited>common-lib</last-edited>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -968,11 +2452,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+<<<<<<< HEAD
           <last-edited>BIG_DATA_SXT_3</last-edited>
+=======
+<<<<<<< HEAD
+          <last-edited>Web|BIG_DATA_LOG2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+=======
+          <last-edited>ML</last-edited>
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.59885055" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
               </list>
             </option>
           </splitter-proportions>
@@ -980,7 +2476,11 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
+<<<<<<< HEAD
+          <last-edited>jdk1.8.0_162</last-edited>
+=======
           <last-edited>1.8.0_162</last-edited>
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -992,11 +2492,34 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+<<<<<<< HEAD
+          <last-edited>hadoop-lib</last-edited>
+=======
+<<<<<<< HEAD
           <last-edited>hadoop-lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+=======
+          <last-edited>scala-sdk-2.10.4</last-edited>
+>>>>>>> 367ebd7178f101cee42da7247e59b080288ce729
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
                 <option value="0.59885055" />
+>>>>>>> 77466be44e880d598a4f727b7fe8077c4d0562fe
               </list>
             </option>
           </splitter-proportions>
