@@ -21,12 +21,14 @@ import java.io.IOException;
 
 /**
  * 编写mapreduce的runner类
- * 
+ *
  * @author root
  * create 'eventlog','log'
- *
  */
 public class AnalyserLogDataRunner implements Tool {
+
+    private String prefixPath = "/flume/logs";
+
     private static final Logger logger = Logger.getLogger(AnalyserLogDataRunner.class);
     private Configuration conf = null;
 
@@ -41,8 +43,11 @@ public class AnalyserLogDataRunner implements Tool {
 
     @Override
     public void setConf(Configuration conf) {
-        conf.set("fs.defaultFS","hdfs://129.211.79.98:9000");
-        conf.set("hbase.zookeeper.quorum","129.211.79.98:2181");
+//        conf.set("fs.defaultFS", "hdfs://centos98:9000");
+        conf.set("fs.defaultFS", "hdfs://129.211.79.98:9000");
+//        conf.set("hbase.zookeeper.quorum", "centos98:2181");
+        conf.set("hbase.zookeeper.quorum", "129.211.79.98:2181");
+        conf.set("dfs.client.use.datanode.hostname", "true");
         this.conf = HBaseConfiguration.create(conf);
     }
 
@@ -81,7 +86,7 @@ public class AnalyserLogDataRunner implements Tool {
 
     /**
      * 处理参数
-     * 
+     *
      * @param conf
      * @param args
      */
@@ -106,7 +111,7 @@ public class AnalyserLogDataRunner implements Tool {
 
     /**
      * 设置job的输入路径
-     * 
+     *
      * @param job
      */
     private void setJobInputPaths(Job job) {
@@ -115,7 +120,7 @@ public class AnalyserLogDataRunner implements Tool {
         try {
             fs = FileSystem.get(conf);
             String date = conf.get(GlobalConstants.RUNNING_DATE_PARAMES);
-            Path inputPath = new Path("/logs/" + TimeUtil.parseLong2String(TimeUtil.parseString2Long(date), "yyyy/MM/dd/"));
+            Path inputPath = new Path(prefixPath+"/" + TimeUtil.parseLong2String(TimeUtil.parseString2Long(date), "yyyy/MM/dd/"));
             if (fs.exists(inputPath)) {
                 FileInputFormat.addInputPath(job, inputPath);
             } else {
