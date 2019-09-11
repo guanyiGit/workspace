@@ -3,13 +3,15 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>Insert title here</title>
+<title>测试页面1</title>
+<script type="text/javascript" src="./js/analytics.js"></script>
 </head>
 <body>
-	启动成功
-	<a href="demo.jsp">demo.jsp</a>
-	<a href="demo2.jsp">demo2.jsp</a>
-	<a href="demo3.jsp">demo3.jsp</a>
-	<a href="demo4.jsp">demo4.jsp</a>
+	测试页面1<br/>
+	跳转到:
+	<a href="demo.jsp">demo</a>
+	<a href="demo2.jsp">demo2</a>
+	<a href="demo3.jsp">demo3</a>
+	<a href="demo4.jsp">demo4</a>
 </body>
 </html>
