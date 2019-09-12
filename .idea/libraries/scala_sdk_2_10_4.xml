@@ -9,11 +9,11 @@
       </compiler-classpath>
     </properties>
     <CLASSES>
-      <root url="jar://D:/install/scala/lib/scala-actors-migration.jar!/" />
-      <root url="jar://D:/install/scala/lib/scala-actors.jar!/" />
-      <root url="jar://D:/install/scala/lib/scala-library.jar!/" />
-      <root url="jar://D:/install/scala/lib/scala-reflect.jar!/" />
-      <root url="jar://D:/install/scala/lib/scala-swing.jar!/" />
+      <root url="jar://D:/Install/scala/lib/scala-actors-migration.jar!/" />
+      <root url="jar://D:/Install/scala/lib/scala-actors.jar!/" />
+      <root url="jar://D:/Install/scala/lib/scala-library.jar!/" />
+      <root url="jar://D:/Install/scala/lib/scala-reflect.jar!/" />
+      <root url="jar://D:/Install/scala/lib/scala-swing.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="http://www.scala-lang.org/api/2.10.4/" />
