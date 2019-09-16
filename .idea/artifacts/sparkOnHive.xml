@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="sparkOnHive">
-    <output-path>$PROJECT_DIR$/output/artifacts/sparkOnHive</output-path>
-    <root id="archive" name="sparkOnHive.jar">
-      <element id="module-output" name="scala_demo" />
-    </root>
-  </artifact>
-</component>
