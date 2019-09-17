@@ -2,6 +2,7 @@ package com.sxt.etl.mr.ald;
 
 import com.sxt.common.EventLogConstants;
 import com.sxt.common.GlobalConstants;
+import com.sxt.util.EJob;
 import com.sxt.util.TimeUtil;
 import org.apache.commons.lang.StringUtils;
 import org.apache.hadoop.conf.Configuration;
@@ -11,19 +12,21 @@ import org.apache.hadoop.hbase.HBaseConfiguration;
 import org.apache.hadoop.hbase.client.Put;
 import org.apache.hadoop.hbase.mapreduce.TableMapReduceUtil;
 import org.apache.hadoop.io.NullWritable;
+import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.log4j.Logger;
 
+import java.io.File;
 import java.io.IOException;
 
 /**
  * 编写mapreduce的runner类
  *
  * @author root
- * create 'eventlog','log'
+ * create 'event_logs','info'
  */
 public class AnalyserLogDataRunner implements Tool {
 
@@ -43,11 +46,10 @@ public class AnalyserLogDataRunner implements Tool {
 
     @Override
     public void setConf(Configuration conf) {
-//        conf.set("fs.defaultFS", "hdfs://centos98:9000");
-        conf.set("fs.defaultFS", "hdfs://129.211.79.98:9000");
-//        conf.set("hbase.zookeeper.quorum", "centos98:2181");
-        conf.set("hbase.zookeeper.quorum", "129.211.79.98:2181");
+        conf.set("fs.defaultFS", "hdfs://centos98:9000");
+        conf.set("hbase.zookeeper.quorum", "centos98:2181");
         conf.set("dfs.client.use.datanode.hostname", "true");
+
         this.conf = HBaseConfiguration.create(conf);
     }
 
@@ -64,8 +66,8 @@ public class AnalyserLogDataRunner implements Tool {
         Job job = Job.getInstance(conf, "analyser_logdata");
 
         // 设置本地提交job，集群运行，需要代码
-        // File jarFile = EJob.createTempJar("target/classes");
-        // ((JobConf) job.getConfiguration()).setJar(jarFile.toString());
+//         File jarFile = EJob.createTempJar("output/production/BIG_DATA_SXT_3");
+//         ((JobConf) job.getConfiguration()).setJar(jarFile.toString());
         // 设置本地提交job，集群运行，需要代码结束
 
         job.setJarByClass(AnalyserLogDataRunner.class);

@@ -21,7 +21,7 @@ import com.sxt.transformer.mr.TransformerBaseMapper;
 
 /**
  * 自定义的计算新用户的mapper类
- * 
+ *
  * @author root
  *
  */

@@ -24,9 +24,9 @@ import com.sxt.transformer.service.IDimensionConverter;
 public class DimensionConverterImpl implements IDimensionConverter {
     private static final Logger logger = Logger.getLogger(DimensionConverterImpl.class);
     private static final String DRIVER = "com.mysql.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://node3:3306/result_db";
+    private static final String URL = "jdbc:mysql://centos98:3306/result_db?useUnicode=true&characterEncoding=utf8";
     private static final String USERNAME = "root";
-    private static final String PASSWORD = "123";
+    private static final String PASSWORD = "123456";
     private Map<String, Integer> cache = new LinkedHashMap<String, Integer>() {
         private static final long serialVersionUID = 8894507016522723685L;
 
