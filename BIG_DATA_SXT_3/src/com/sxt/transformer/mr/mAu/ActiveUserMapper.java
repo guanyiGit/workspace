@@ -1,4 +1,4 @@
-package com.sxt.transformer.mr.mNu;
+package com.sxt.transformer.mr.mAu;
 
 import com.sxt.common.DateEnum;
 import com.sxt.common.EventLogConstants;
@@ -19,29 +19,27 @@ import org.apache.hadoop.hbase.util.Bytes;
 import java.io.IOException;
 import java.util.List;
 
-public class NewInstallUserMapper extends TableMapper<StatsUserDimension, TimeOutputValue> {
+public class ActiveUserMapper extends TableMapper<StatsUserDimension, TimeOutputValue> {
 
-    private byte[] family = Bytes.toBytes(EventLogConstants.EVENT_LOGS_FAMILY_NAME);
     private StatsUserDimension statsUserDimension = new StatsUserDimension();
     private TimeOutputValue timeOutputValue = new TimeOutputValue();
-    private KpiDimension newInstallUserKpi = new KpiDimension(KpiType.NEW_INSTALL_USER.name);
-    private KpiDimension browserNewInstallUserKpi = new KpiDimension(KpiType.BROWSER_NEW_INSTALL_USER.name);
+    private KpiDimension activeUserkpiDimension = new KpiDimension(KpiType.ACTIVE_USER.name);
+    private KpiDimension browserActiveUserkpiDimension = new KpiDimension(KpiType.BROWSER_ACTIVE_USER.name);
+    private byte[] family = Bytes.toBytes(EventLogConstants.EVENT_LOGS_FAMILY_NAME);
 
     @Override
     protected void map(ImmutableBytesWritable key, Result value, Context context) throws IOException, InterruptedException {
-        System.err.println(">>>>>>>>>>>>"+key);
         String date = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_SERVER_TIME))));
-        long time = Long.valueOf(date);
-        DateDimension dateDimension = DateDimension.buildDate(time, DateEnum.DAY);
-
-        String platformName = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_PLATFORM))));
-        List<PlatformDimension> platformDimensions = PlatformDimension.buildList(platformName);
-
+        Long time = Long.valueOf(date);
         String browserName = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_BROWSER_NAME))));
         String browserVersion = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_BROWSER_VERSION))));
-        List<BrowserDimension> browserDimensions = BrowserDimension.buildList(browserName, browserVersion);
-
         String uuid = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_UUID))));
+        String platform = Bytes.toString(CellUtil.cloneValue(value.getColumnLatestCell(family, Bytes.toBytes(EventLogConstants.LOG_COLUMN_NAME_PLATFORM))));
+
+        DateDimension dateDimension = DateDimension.buildDate(time, DateEnum.DAY);
+        List<BrowserDimension> browserDimensions = BrowserDimension.buildList(browserName, browserVersion);
+        List<PlatformDimension> platformDimensions = PlatformDimension.buildList(platform);
+
         timeOutputValue.setId(uuid);
         timeOutputValue.setTime(time);
 
@@ -49,16 +47,18 @@ public class NewInstallUserMapper extends TableMapper<StatsUserDimension, TimeOu
         statsCommon.setDate(dateDimension);
 
         BrowserDimension defaultBrowserDimension = new BrowserDimension("", "");
-        for (PlatformDimension pd : platformDimensions) {
-            statsCommon.setKpi(newInstallUserKpi);
-            statsCommon.setPlatform(pd);
+        for (PlatformDimension platformDimension : platformDimensions) {
+            statsCommon.setKpi(activeUserkpiDimension);
+            statsCommon.setPlatform(platformDimension);
             statsUserDimension.setBrowser(defaultBrowserDimension);
             context.write(statsUserDimension, timeOutputValue);
-            for (BrowserDimension bd : browserDimensions) {
-                statsCommon.setKpi(browserNewInstallUserKpi);
-                statsUserDimension.setBrowser(bd);
+            for (BrowserDimension browserDimension : browserDimensions) {
+                statsCommon.setKpi(browserActiveUserkpiDimension);
+                statsUserDimension.setBrowser(browserDimension);
                 context.write(statsUserDimension, timeOutputValue);
             }
         }
+
     }
+
 }

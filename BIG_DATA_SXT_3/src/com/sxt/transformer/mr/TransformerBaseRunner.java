@@ -147,6 +147,10 @@ public abstract class TransformerBaseRunner implements Tool {
         conf.addResource("transformer-env.xml");
         conf.addResource("query-mapping.xml");
         conf.addResource("output-collector.xml");
+
+        conf.set("fs.defaultFS", "hdfs://centos98:9000");
+        conf.set("hbase.zookeeper.quorum", "centos98:2181");
+        conf.set("dfs.client.use.datanode.hostname", "true");
         // 创建hbase相关的config对象(包含hbase配置文件)
         // hbase创建config的时候，会将指定参数的configuration所有的内容加载到内存中。
         this.conf = HBaseConfiguration.create(conf);
@@ -303,7 +307,7 @@ public abstract class TransformerBaseRunner implements Tool {
         }
 
         // 优化设置cache
-        scan.setBatch(500);
+//        scan.setBatch(500);
         scan.setCacheBlocks(true); // 启动cache blocks
         scan.setCaching(1000); // 设置每次返回的行数，默认值100，设置较大的值可以提高速度(减少rpc操作)，但是较大的值可能会导致内存异常。
         return Lists.newArrayList(scan);
