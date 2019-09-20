@@ -10,15 +10,10 @@ import java.sql.SQLException;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+import com.sxt.transformer.model.dim.base.*;
 import org.apache.log4j.Logger;
 
 import com.mysql.jdbc.Statement;
-import com.sxt.transformer.model.dim.base.BaseDimension;
-import com.sxt.transformer.model.dim.base.BrowserDimension;
-import com.sxt.transformer.model.dim.base.DateDimension;
-import com.sxt.transformer.model.dim.base.KpiDimension;
-import com.sxt.transformer.model.dim.base.LocationDimension;
-import com.sxt.transformer.model.dim.base.PlatformDimension;
 import com.sxt.transformer.service.IDimensionConverter;
 
 public class DimensionConverterImpl implements IDimensionConverter {
@@ -65,6 +60,10 @@ public class DimensionConverterImpl implements IDimensionConverter {
                 sql = this.buildKpiSql();
             } else if (dimension instanceof LocationDimension) {
                 sql = this.buildLocationSql();
+            } else if (dimension instanceof CurrencyTypeDimension) {
+                sql = this.buildCurrencyTypeSql();
+            }else if (dimension instanceof PaymentTypeDimension) {
+                sql = this.buildPaymentTypeSql();
             } else {
                 throw new IOException("不支持此dimensionid的获取:" + dimension.getClass());
             } 
@@ -88,6 +87,18 @@ public class DimensionConverterImpl implements IDimensionConverter {
                 }
             }
         }
+    }
+
+    private String[] buildPaymentTypeSql() {
+        String querySql = "SELECT * FROM dimension_payment_type ct WHERE ct.payment_type = ?";
+        String insertSql = "INSERT INTO `dimension_payment_type` ( `payment_type`) VALUES (?);";
+        return new String[] { querySql, insertSql };
+    }
+
+    private String[] buildCurrencyTypeSql() {
+        String querySql = "SELECT * FROM dimension_currency_type ct WHERE ct.currency_name = ?";
+        String insertSql = "INSERT INTO `dimension_currency_type` ( `currency_name`) VALUES (?);";
+        return new String[] { querySql, insertSql };
     }
 
     /**
